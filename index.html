@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+                <p class="texto">Formulario</p>
+            <ul class="lista1">
+                <li>
+                    <label class="ast1"><span class="ast">*</span>marcadores con asteriscos</label>
+                </li>
+                <li>
+                    <label class="label1">Nombre:<span class="astr">*</span></label>
+                    <input type="text" name="name" id="name" required>
+                </li>
+                <li>
+                    <label class="label1">Apellido:<span class="astr">*</span></label>
+                    <input type="text" name="username" id="username" required>
+                </li>
+                <li>
+                    <label class="label1">Email:<span class="astr">*</span></label>
+                    <input type="email" name="email" id="email" required>
+                </li>
+                <li>
+                    <label class="label1">Nacimiento</label>
+                    <input type="date" name="fecha" id="fecha" required>
+                </li>
+                <li>
+                    <label class="label1">Pais</label>
+                    <select name="pais" id="pais">
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="España">España</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Otros">Otros</option>
+                    </select>
+                </li>
+                <li>
+                    <label class="label1">Sexo</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" id="sexo1">
+                    <label for="sexo1">Masculino</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" id="sexo2">
+                    <label for="sexo2">Femenino</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" id="sexo3">
+                    <label for="sexo3">Otros</label>
+                </li>
+                <li>
+                    <label class="label1">Alergia</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="alergia1">
+                    <label for="alergia1">Gluten</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="alergia2">
+                    <label for="alergia2">Frutos Secos</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="alergia3">
+                    <label for="alergia3">Lactosa</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="alergia4">
+                    <label for="alergia4">Ninguna</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="alergia5">
+                    <label for="alergia5">Otros</label>
+                </li>
+            </ul>
+            <button class="miboton" onclick="location.href='https://www.youtube.com'">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
